@@ -1,0 +1,12 @@
+#!/bin/zsh
+# Perform linter procedure on the current python project
+
+set -e
+
+if [[ -z $VIRTUALENV_PUD ]] ; then
+    VIRTUALENV_PUD=${${PWD##*/}//-/_}
+fi
+
+isort -rc .
+black .
+pylint $VIRTUALENV_PUD

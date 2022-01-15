@@ -1,0 +1,41 @@
+Include config.local
+
+
+Host ampio-gitlab
+   HostName gitlab.ampio.pl
+   User mgetka
+Host ampio-ci2-gitlab
+   HostName 192.168.77.85
+   User mgetka
+
+Host ampio-vm1
+   ForwardX11 yes
+   HostName 192.168.77.180
+   User mgetka
+Host ampio-ci1-gitlab
+   HostName 192.168.77.181
+   User mgetka
+Host ampio-staging-cloud
+   HostName 192.168.77.182
+   User mgetka
+Host ampio-http-proxy
+   HostName 192.168.77.183
+   User mgetka
+Host ampio-preprod-cloud
+   HostName 192.168.77.184
+   user mgetka
+   Port 6022
+
+Host ampio-vm2
+   ForwardX11 yes
+   HostName 192.168.77.140
+   User mgetka
+Host ampio-repo1
+   HostName 192.168.77.144
+   User mgetka
+Host ampio-redmine
+   HostName 192.168.77.142
+   User mgetka
+Host ampio-metrics
+   HostName 192.168.77.143
+   User mgetka

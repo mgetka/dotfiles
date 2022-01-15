@@ -1,0 +1,14 @@
+#!/bin/zsh
+# Sets VIRTUALENV_PUD (package under development) variable in the current virtualenv. The call is
+# not idempotent - consecutive calls will generally make a mess in post activation/deactivation
+# hooks. Nevertheless the mess is not dangerous.
+
+set -e
+
+if [[ -z $VIRTUAL_ENV ]] ; then
+    echo "Virtualenv must be active."
+    exit 1
+fi
+
+echo "export VIRTUALENV_PUD="'"'"$1"'"'"" >> "$VIRTUAL_ENV/bin/postactivate"
+echo "unset VIRTUALENV_PUD" >> "$VIRTUAL_ENV/bin/predeactivate"

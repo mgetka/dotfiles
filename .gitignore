@@ -1,0 +1,5 @@
+# zsh autocomplete cache
+cache
+
+# some fc artifacts
+fonts/**/.uuid

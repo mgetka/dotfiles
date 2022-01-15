@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Usage: vscode-package-backup
+#
+# Saves a list of your currently installed vscode packages to
+# vscode/packages.txt suitable for install via vscode-package-install
+
+set -e
+
+code --list-extensions --show-versions > ${ZSH}/vscode/packages.txt

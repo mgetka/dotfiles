@@ -1,0 +1,30 @@
+- defaults:
+    link:
+      relink: true
+   
+- shell:
+   - [git submodule update --init --recursive, Installing/updating submodules]
+   - [mkdir -p -m 0700 ~/.ssh, Creating .ssh dir if not exist]
+   
+- clean: ['~', '~/.fonts']
+   
+- link:
+   
+   # Self
+   ~/.dotfiles: ''
+   
+   # zsh
+   ~/.zshrc: zsh/zshrc
+   
+   # SSH
+   ~/.ssh/config: ssh/config
+   
+   # GIT
+   ~/.gitconfig: git/gitconfig
+   ~/.gitignore: git/gitignore
+   
+   # Quiet login
+   ~/.hushlogin: login/hushlogin
+
+- shell:
+   - [chmod 600 ~/.ssh/config, set ssh config file permissions]

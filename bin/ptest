@@ -1,0 +1,10 @@
+#!/bin/zsh
+# Perform pytest tests on the current python project
+
+set -e
+
+if [[ -z $VIRTUALENV_PUD ]] ; then
+    VIRTUALENV_PUD=${${PWD##*/}//-/_}
+fi
+
+exec pytest -v --cov=$VIRTUALENV_PUD --cov-report term-missing $@
