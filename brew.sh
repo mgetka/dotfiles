@@ -30,6 +30,8 @@ brew install git-lfs
 brew install imagemagick
 brew install ssh-copy-id
 brew install tree
+brew install virtualenv
+brew install virtualenvwrapper
 
 # Remove outdated versions from the cellar.
 brew cleanup
