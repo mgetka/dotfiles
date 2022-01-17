@@ -6,5 +6,5 @@ PATH_ARRAY=(
     "/opt/homebrew/opt/coreutils/libexec/gnubin"
 )
 
-export PATH=${(j.:.)PATH_ARRAY}$PATH
+export PATH="${(j.:.)PATH_ARRAY}:$PATH"
 unset PATH_ARRAY
