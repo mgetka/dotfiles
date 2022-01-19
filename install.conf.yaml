@@ -1,23 +1,27 @@
 - defaults:
     link:
       relink: true
-   
+
 - shell:
    - [git submodule update --init --recursive, Installing/updating submodules]
-   
+
 - clean: ['~']
-   
+
 - link:
-   
+
    # Self
    ~/.dotfiles: ''
-   
+
    # zsh
    ~/.zshrc: zsh/zshrc
-   
+
    # GIT
    ~/.gitconfig: git/gitconfig
    ~/.gitignore: git/gitignore
-   
+
    # Quiet login
    ~/.hushlogin: login/hushlogin
+
+  # vscode
+   ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+   ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
