@@ -54,5 +54,19 @@
     {
         "key": "shift+cmd+a",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+z",
+        "command": "-workbench.action.terminal.sizeToContentWidth",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+c",
+        "command": "-markdown.extension.checkTaskList",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
     }
 ]
