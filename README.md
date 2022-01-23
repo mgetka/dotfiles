@@ -13,11 +13,11 @@ $ ./install
 
 ### Brew packages
 
-System wide brew packages are installed by `brew.sh`
+System wide brew packages are installed by `brew/install.sh`
 
 ### System configuration tuning
 
-Some of the system configuration is stored in `macos.sh`
+Some of the system configuration is stored in `macos/configure.sh`
 
 ### Additional software installed manually
 
