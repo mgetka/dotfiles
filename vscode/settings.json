@@ -45,5 +45,11 @@
     "python.formatting.provider": "black",
     "python.linting.banditEnabled": true,
     "pythonIndent.useTabOnHangingIndent": true,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "cSpell.userWords": [
+        "budynkowej"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
