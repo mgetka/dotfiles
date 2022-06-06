@@ -1,0 +1,33 @@
+#!/bin/zsh
+# Wrapper on pybabel for common operations
+
+set -e
+
+if [[ -z $VIRTUAL_ENV ]] ; then
+    echo "Virtualenv must be active."
+    exit 1
+fi
+
+if [[ -z $VIRTUALENV_PUD ]] ; then
+    VIRTUALENV_PUD=${${PWD##*/}//-/_}
+fi
+
+if [ -z "$1" ]; then
+    echo "Missing command!"
+    exit 1
+fi
+
+case "$1" in
+    extract)
+        exec pybabel extract -F babel.cfg --omit-header -k lazy_gettext -k lazy_ngettext -o messages.pot ./ ${@:2}
+        ;;
+    init)
+        exec pybabel init -d "src/$VIRTUALENV_PUD/translations" -l "$2" -i messages.pot ${@:3}
+        ;;
+    update)
+        exec pybabel update -d "src/$VIRTUALENV_PUD/translations" -l "$2" -i messages.pot ${@:3}
+        ;;
+    *)
+        echo "Invalid command!"
+        exit 1
+esac
