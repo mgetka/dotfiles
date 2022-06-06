@@ -8,9 +8,7 @@
     "editor.folding": false,
     "editor.links": false,
     "editor.mouseWheelZoom": true,
-    "editor.rulers": [
-        100
-    ],
+    "editor.rulers": [100],
     "editor.cursorSurroundingLines": 10,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -45,11 +43,9 @@
     "python.formatting.provider": "black",
     "python.linting.banditEnabled": true,
     "pythonIndent.useTabOnHangingIndent": true,
-    "workbench.activityBar.visible": false,
-    "cSpell.userWords": [
-        "budynkowej"
-    ],
+    "cSpell.userWords": ["budynkowej"],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.activityBar.visible": false
 }
