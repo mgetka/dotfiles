@@ -20,6 +20,9 @@ brew install findutils
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
+# Used for less syntax highlighting
+brew install source-highlight
+
 # Install other useful binaries.
 brew install nmap
 brew install socat
