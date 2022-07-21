@@ -21,7 +21,7 @@ brew install findutils
 brew install gnupg
 
 # Used for less syntax highlighting
-brew install source-highlight
+brew install pygments
 
 # Install other useful binaries.
 brew install nmap
