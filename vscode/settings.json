@@ -31,13 +31,11 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.customGlyphs": false,
-    "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "file-icons",
     "cSpell.language": "en,pl-PL",
     "git.autofetch": true,
     "git.enableCommitSigning": true,
     "git.fetchOnPull": true,
-    "html.format.wrapAttributes": "aligned-multiple",
     "prettier.tabWidth": 4,
     "python.analysis.autoImportCompletions": false,
     "python.formatting.provider": "black",
@@ -53,5 +51,13 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
-    "workbench.activityBar.visible": false
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "customizeUI.titleBar": "inline",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": false,
+    "html.format.wrapLineLength": 0,
+    "html.autoCreateQuotes": false,
+    "html.autoClosingTags": false
 }
