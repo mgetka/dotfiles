@@ -1,2 +1,2 @@
 # Tune exa output colors a bit
-export EXA_COLORS='da=37:uu=33:gu=33'
+export EXA_COLORS='da=37:uu=33:gu=33:gm=36'
