@@ -56,8 +56,8 @@
     },
     "customizeUI.titleBar": "inline",
     "workbench.colorTheme": "Atom One Dark",
-    "workbench.activityBar.visible": false,
     "html.format.wrapLineLength": 0,
     "html.autoCreateQuotes": false,
-    "html.autoClosingTags": false
+    "html.autoClosingTags": false,
+    "workbench.activityBar.visible": false
 }
