@@ -49,7 +49,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100,
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
