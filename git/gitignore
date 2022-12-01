@@ -14,9 +14,6 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-# Visual Studio Code project config
-.vscode
-
 # Folder view configuration files
 .DS_Store
 Desktop.ini
