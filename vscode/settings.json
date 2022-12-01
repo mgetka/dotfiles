@@ -59,5 +59,7 @@
     "html.format.wrapLineLength": 0,
     "html.autoCreateQuotes": false,
     "html.autoClosingTags": false,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "html.format.templating": true,
+    "prettier.bracketSameLine": true
 }
