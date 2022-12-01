@@ -68,5 +68,10 @@
         "key": "alt+c",
         "command": "-markdown.extension.checkTaskList",
         "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+c",
+        "command": "-markdown.extension.checkTaskList",
+        "when": "editorTextFocus && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
     }
 ]
