@@ -51,7 +51,7 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.wordWrap": "wordWrapColumn",
-        "editor.wordWrapColumn": 100,
+        "editor.wordWrapColumn": 100
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -61,7 +61,7 @@
     "html.format.wrapLineLength": 0,
     "html.autoCreateQuotes": false,
     "html.autoClosingTags": false,
-    "workbench.activityBar.visible": false,
     "html.format.templating": true,
-    "prettier.bracketSameLine": true
+    "prettier.bracketSameLine": true,
+    "workbench.activityBar.visible": false
 }
