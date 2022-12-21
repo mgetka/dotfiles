@@ -34,6 +34,7 @@ brew install tree
 brew install virtualenv
 brew install virtualenvwrapper
 brew install exa
+brew install fzf
 
 # Remove outdated versions from the cellar.
 brew cleanup
