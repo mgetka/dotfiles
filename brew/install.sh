@@ -17,6 +17,9 @@ brew install coreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 
+# Install GNU sed
+brew install gnu-sed
+
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
