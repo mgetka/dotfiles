@@ -1,0 +1,5 @@
+default_context:
+  full_name: "Michał Getka"
+  email: "michal.getka@gmail.com"
+  github_username: "mgetka"
+cookiecutters_dir: "~/Workspace/mold/"
