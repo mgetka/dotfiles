@@ -63,5 +63,8 @@
     "html.autoClosingTags": false,
     "html.format.templating": true,
     "prettier.bracketSameLine": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
     "workbench.activityBar.visible": false
 }
