@@ -32,7 +32,6 @@ brew install socat
 brew install git
 brew install git-lfs
 brew install imagemagick
-brew install ssh-copy-id
 brew install tree
 brew install virtualenv
 brew install virtualenvwrapper

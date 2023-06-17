@@ -1,1 +1,1 @@
-export PATH="${PATH:+${PATH}:}/opt/homebrew/opt/fzf/bin"
+export PATH="$PATH:/opt/homebrew/opt/fzf/bin"
