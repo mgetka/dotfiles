@@ -108,5 +108,6 @@
         }
     ],
     "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+    "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false
 }

@@ -6,10 +6,8 @@
 [user]
 	email = michal.getka@gmail.com
 	name = mgetka
-	signingkey = 7300934F
+	signingkey = 6FB5A96718F3EDCD
 [commit]
 	gpgsign = true
 [core]
 	excludesfile = ~/.gitignore
-[gpg]
-	program = /opt/homebrew/bin/gpg

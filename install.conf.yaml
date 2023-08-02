@@ -23,8 +23,8 @@
    ~/.hushlogin: login/hushlogin
 
   # vscode
-   ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
-   ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+   ~/.config/Code/User/settings.json: vscode/settings.json
+   ~/.config/Code/User/keybindings.json: vscode/keybindings.json
 
   # cookiecutter
    ~/.cookiecutterrc: cookiecutter/cookiecutterrc

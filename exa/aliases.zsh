@@ -42,4 +42,4 @@
 # Because fo that, I'll stick with exa only for commonly used aliases.
 
 # Use exa instead of ls for typical, daily oprations
-alias ll='exa -lagF --git'
+alias ll='exa -lagF'
