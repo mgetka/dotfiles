@@ -11,3 +11,5 @@
 	gpgsign = true
 [core]
 	excludesfile = ~/.gitignore
+[init]
+	defaultBranch = master
