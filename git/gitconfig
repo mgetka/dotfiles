@@ -13,3 +13,8 @@
 	excludesfile = ~/.gitignore
 [init]
 	defaultBranch = master
+# The following options require git>=2.36 (https://stackoverflow.com/a/71096731)
+[includeIf "hasconfig:remote.*.url:https://glucyn.zisi.nask.pl/**"]
+	path = ~/.dotfiles/git/nask.gitconfig
+[includeIf "hasconfig:remote.*.url:git@glucyn.zisi.nask.pl:*/**"]
+	path = ~/.dotfiles/git/nask.gitconfig

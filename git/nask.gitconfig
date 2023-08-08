@@ -1,0 +1,6 @@
+[user]
+	email = michal.getka@nask.pl
+	name = Michał Getka
+	signingkey = 2BA6AC1F59641733
+[commit]
+	gpgsign = true
