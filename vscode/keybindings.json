@@ -26,11 +26,11 @@
         "command": "-workbench.action.moveActiveEditorGroupLeft"
     },
     {
-        "key": "cmd+k down",
+        "key": "ctrl+k down",
         "command": "workbench.action.splitEditorDown"
     },
     {
-        "key": "cmd+k up",
+        "key": "ctrl+k up",
         "command": "workbench.action.splitEditorUp"
     },
     {
@@ -73,5 +73,23 @@
         "key": "shift+alt+a",
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k up",
+        "command": "-views.moveViewUp",
+        "when": "focusedView != ''"
+    },
+    {
+        "key": "ctrl+k up",
+        "command": "-workbench.action.moveActiveEditorGroupUp"
+    },
+    {
+        "key": "ctrl+k down",
+        "command": "-workbench.action.moveActiveEditorGroupDown"
+    },
+    {
+        "key": "ctrl+k down",
+        "command": "-views.moveViewDown",
+        "when": "focusedView != ''"
     }
 ]
