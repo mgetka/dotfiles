@@ -40,7 +40,23 @@
     "python.formatting.provider": "black",
     "python.linting.banditEnabled": true,
     "pythonIndent.useTabOnHangingIndent": true,
-    "cSpell.userWords": ["budynkowej"],
+    "cSpell.userWords": [
+        "anomalność",
+        "budynkowej",
+        "interesariuszami",
+        "mitygacja",
+        "mitygacji",
+        "mitygacyjna",
+        "mitygacyjną",
+        "mitygacyjne",
+        "mitygacyjnej",
+        "mitygacyjny",
+        "mitygacyjnych",
+        "Parametryzowany",
+        "uruchomieniowych",
+        "utrzymaniowe",
+        "wersjonowanie"
+    ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
