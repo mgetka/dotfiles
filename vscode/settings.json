@@ -44,6 +44,7 @@
         "anomalność",
         "budynkowej",
         "interesariuszami",
+        "malfunkcji",
         "mitygacja",
         "mitygacji",
         "mitygacyjna",
@@ -52,7 +53,10 @@
         "mitygacyjnej",
         "mitygacyjny",
         "mitygacyjnych",
+        "natywnie",
         "Parametryzowany",
+        "responsywności",
+        "uruchomieniowego",
         "uruchomieniowych",
         "utrzymaniowe",
         "wersjonowanie"
@@ -125,5 +129,6 @@
     "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "MATLAB.matlabConnectionTiming": "never"
 }
