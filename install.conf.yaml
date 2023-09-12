@@ -3,28 +3,27 @@
       relink: true
 
 - shell:
-   - [git submodule update --init --recursive, Installing/updating submodules]
+    - [git submodule update --init --recursive, Installing/updating submodules]
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
+    # Self
+    ~/.dotfiles: ""
 
-   # Self
-   ~/.dotfiles: ''
+    # zsh
+    ~/.zshrc: zsh/zshrc
 
-   # zsh
-   ~/.zshrc: zsh/zshrc
+    # GIT
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore: git/gitignore
 
-   # GIT
-   ~/.gitconfig: git/gitconfig
-   ~/.gitignore: git/gitignore
+    # Quiet login
+    ~/.hushlogin: login/hushlogin
 
-   # Quiet login
-   ~/.hushlogin: login/hushlogin
+    # vscode
+    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.config/Code/User/keybindings.json: vscode/keybindings.json
 
-  # vscode
-   ~/.config/Code/User/settings.json: vscode/settings.json
-   ~/.config/Code/User/keybindings.json: vscode/keybindings.json
-
-  # cookiecutter
-   ~/.cookiecutterrc: cookiecutter/cookiecutterrc
+    # cookiecutter
+    ~/.cookiecutterrc: cookiecutter/cookiecutterrc
