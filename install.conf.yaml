@@ -27,3 +27,6 @@
 
     # cookiecutter
     ~/.cookiecutterrc: cookiecutter/cookiecutterrc
+
+    # poetry
+    ~/.config/pypoetry/config.toml: poetry/config.toml
