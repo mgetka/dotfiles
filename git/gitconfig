@@ -18,3 +18,5 @@
 	path = ~/.dotfiles/git/nask.gitconfig
 [includeIf "hasconfig:remote.*.url:git@glucyn.zisi.nask.pl:*/**"]
 	path = ~/.dotfiles/git/nask.gitconfig
+[log]
+	date = iso-strict
