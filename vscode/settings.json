@@ -42,7 +42,9 @@
     "pythonIndent.useTabOnHangingIndent": true,
     "cSpell.userWords": [
         "anomalność",
+        "bezstanowość",
         "budynkowej",
+        "dwukrotnością",
         "interesariuszami",
         "malfunkcji",
         "mitygacja",
@@ -53,13 +55,18 @@
         "mitygacyjnej",
         "mitygacyjny",
         "mitygacyjnych",
+        "mitygacyjnym",
         "natywnie",
+        "odsprzęga",
         "Parametryzowany",
         "responsywności",
+        "terminowanych",
         "uruchomieniowego",
         "uruchomieniowych",
         "utrzymaniowe",
-        "wersjonowanie"
+        "wersjonowanie",
+        "zrównoleglenia",
+        "zrównoleglonej"
     ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
