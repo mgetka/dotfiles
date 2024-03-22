@@ -1,0 +1,5 @@
+#!/bin/zsh
+# Run the CPU fan at full speed
+COMMAND="echo 0 > /sys/devices/platform/asus-nb-wmi/hwmon/hwmon*/pwm1_enable"
+echo "$COMMAND"
+sudo zsh -c "$COMMAND"
